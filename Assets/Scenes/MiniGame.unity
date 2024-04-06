@@ -959,7 +959,7 @@ SphereCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 843949965}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5dcc86865763a2842a819c735506c694, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1078,6 +1078,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+  jump: 4
+  doubleJump: 2
   countText: {fileID: 1040826956}
   winTextObject: {fileID: 427296362}
 --- !u!114 &843949972
@@ -1818,7 +1820,7 @@ GameObject:
   - component: {fileID: 1497345806}
   m_Layer: 0
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
